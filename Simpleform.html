@@ -1,0 +1,50 @@
+
+
+<body>
+  <h1 style="text-align:center;">Personal Details</h1>
+  <form action="simpleform.html" method="post">
+    <b>
+      <label for="firstname">First Name :</label>
+      <input type="text" name="firstname" required><br><br>
+
+      <label for="Lastname">Last Name :</label>
+      <input type="text" name="Lastname" required><br><br>
+
+      <label for="gender">Gender :</label>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female<br><br>
+
+      <label for="dob">Date Of Birth :</label>
+      <input type="date" id="dob" name="dob" required><br><br>
+
+      <label for="country">Country :</label>
+      <select name="country" required>
+        <option value="usa">USA</option>
+        <option value="india">India</option>
+        <option value="africa">Africa</option>
+        <option value="canada">Canada</option>
+        <option value="westindies">West Indies</option>
+        <option value="russia">Russia</option>
+        <option value="newzealand">New Zealand</option>
+      </select><br><br>
+
+      <label for="state">State :</label>
+      <select name="state" required>
+        <option value="Kerala">Kerala</option>
+        <option value="Andrapradesh">Andhra Pradesh</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Puducherry">Puducherry</option>
+      </select><br><br>
+
+      <label for="mobile">Enter a mobile number :</label>
+      <input type="text" id="mobile" name="mobile" maxlength="10" placeholder="Enter a number" required><br><br>
+
+      <label for="email">Enter an Email ID :</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+      <h1 style="text-align:center;"><input type="submit" value="Submit"></h1>
+    </b>
+  </form>
+</body>
